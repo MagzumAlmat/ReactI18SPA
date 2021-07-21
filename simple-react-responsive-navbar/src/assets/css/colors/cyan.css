@@ -1,0 +1,50 @@
+/*  Theme Name: Hiric | Responsive Bootstrap Landing Template Cyan
+    Author: Themesbrand
+    Version: 1.0.0
+    File Description: Main CSS file of the template
+*/
+
+
+a{
+    color: #1bbc9d !important;
+}
+
+
+.section-title-border, .bg-custom, .btn-custom,.features-item-list li:before,.process-left-icon-1 i,
+.process-left-icon-2 i{
+    background-color: #1bbc9d;
+}
+
+
+
+.btn-custom,.play-btn{
+    border-color:#1bbc9d !important;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom{
+	background-color: #159078;
+}
+
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom{
+	border-color: #159078 !important;
+}
+
+
+

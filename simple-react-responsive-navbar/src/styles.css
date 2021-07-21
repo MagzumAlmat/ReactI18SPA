@@ -1,0 +1,298 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  max-width: 1140px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+/* BASIC STYLES */
+
+
+/* * {
+  padding: 0;
+  margin: 0;
+}
+
+
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fafbfe!important;
+ 
+} 
+/* 
+#root{font-size: 0.8rem!important; background-color: #1bbc9d;} */
+
+nav.navbar{font-size: 0.8rem;}
+p {
+  font-size: 14.4px;
+  line-height: 24px;
+}
+
+.h1,
+h1 {
+  font-size: 36px;
+}
+
+.h2,
+h2 {
+  font-size: 30px;
+}
+
+.h3,
+h3 {
+  font-size: 24px;
+}
+
+.h4,
+h4 {
+  font-size: 18px;
+}
+
+.h5,
+h5 {
+  font-size: 14px;
+}
+
+.h6,
+h6 {
+  font-size: 12px;
+}
+
+b {
+  font-weight: 500;
+}
+
+.logo {
+  grid-column: 2;
+}
+
+.main-nav {
+  grid-column: 13;
+}
+
+.hamburger {
+  grid-column: 15;
+  justify-self: end;
+}
+
+.main-nav ul {
+  display: grid;
+  grid-template-columns: repeat(16, auto);
+  justify-items: center;
+}
+
+.fa-bars {
+  font-size: 1.4em;
+}
+
+.logo img {
+  display: block;
+  height: 70px;
+}
+
+.main-nav {
+ display: grid;
+}
+
+/* MEDIA QUERIES */
+/* 
+@media screen and (max-width: 700px) {
+  div.hhide {
+    display: none;
+  }
+  .main-nav {
+      grid-row: 2;
+      grid-column: 2 / 5;
+      background-color: #000;
+  }
+
+  .main-nav ul {
+      grid-template-columns: 1fr;
+      height: calc(80vh - 70px);
+      align-content: space-evenly;
+  }
+
+  .main-nav ul a {
+      color: #fff;
+  }
+
+} */
+
+
+
+.imageResize img {
+  width: 70%;
+  height: 100vh;
+}
+
+/* 
+
+.section {
+  padding-top: 180px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.section-sm {
+  padding: 120px 0;
+}
+
+.section-lg {
+  padding: 220px 0;
+}
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 1rem;
+  line-height: 1;
+  font-size: 1.75rem;
+} */
+
+
+ul.pattern {
+  list-style: none outside none;
+  margin: 0 0 0px;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 0px;
+}
+
+ul.pattern li {
+  float: left;
+  margin: 2px;
+}
+
+ul.pattern li a {
+  cursor: pointer;
+  display: block;
+  height: 35px;
+  width: 35px;
+  border-radius: 30% 70% 64% 36% / 30% 42% 58% 70%;
+  margin: 5px;
+}
+
+ul.pattern .color1 {
+  background-color: #1bbc9d;
+}
+
+#block1 {
+  padding-top: 126px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* padding: 60px 0; */
+  text-align: center;
+  background: #fff;
+  
+}
+#block2 {
+  padding-top: 126px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+  text-align: center;
+  background: #fff;
+}#block3 {
+  padding-top: 126px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+  text-align: center;
+  background: #fff;
+}#block4 {
+  padding-top: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+  text-align: center;
+  background: #fff;
+}#block5 {
+  padding-top: 126px;
+  height: 200px;
+
+  text-align: center;
+  background: #fff;
+}#block6 {
+  padding-top: 126px;
+  height: 200px;
+ 
+  text-align: center;
+  background: #fff;
+}#block7 {
+  padding-top: 126px;
+  height: 200px;
+  
+  text-align: center;
+  background: #fff;
+}
+
+
+
+/* 
+
+
+
+i {
+color: #222;
+size: 20px;
+}
+
+.circle-icon {
+  background: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+
+.circle-icon:hover {
+background-color: #eee;
+}
+
+
+
+
+.text-custom,.read-btn,
+.Nav.Link.active a,
+.navbar-custom.navbar-white .navbar-nav li a:hover,
+.navbar-custom.navbar-white .navbar-nav li a:focus,
+.navbar-custom.navbar-white .navbar-nav li a:active,
+.play-btn,.blog-title:hover,.social-icon:hover i{
+    color: #1bbc9d !important;
+}
+
+
+.section-title-border, .bg-custom, .btn-custom,.features-item-list li:before,.process-left-icon-1 i,
+.process-left-icon-2 i{
+    background-color: #1bbc9d;
+} */
+
+
